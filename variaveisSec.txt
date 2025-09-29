@@ -1,0 +1,5 @@
+Criar novo bd
+fazer query com colunas selecionadas
+salvar colunas selecionadas como nova tabela no bd 
+fazer a filtragem dessa nova tabela
+ clausula_where = " OR ".join(f'"{coluna}" IS NULL' for coluna in colunas_para_verificar)
